@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbe2c5;
+    padding: 10px 30px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO */
+.hero {
+    background-color: #cfe3ff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* SERVICES */
+.services-title {
+    display: inline-block;
+    /* supaya kotaknya hanya selebar teks */
+    background: white;
+    /* warna kotak putih */
+    padding: 50px 50px;
+    /* jarak teks dengan pinggir kotak */
+    border-radius: 12px;
+    /* sudut melengkung */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* bayangan halus */
+    margin-bottom: 30px;
+    /* beri jarak ke bawah */
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.service-card {
+    width: 250px;
+    padding: 20px;  
+}
+
+.services {
+    background-color: #fff3d6;
+}
+
+/* ABOUT */
+.about {
+    background-color: #e7daf3;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.shape {
+    width: 200px;
+    height: 80px;
+    background: white;
+    border: 1px solid black;
+    clip-path: path("M0,20 Q50,0 100,20 T200,20 L200,60 Q150,80 100,60 T0,60 Z");
+}
+
+/* CONTACT */
+.contact {
+    background-color: #d9ecd6;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004ecc;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #fbe2c5;
+    text-align: center;
+    padding: 15px;
+}
