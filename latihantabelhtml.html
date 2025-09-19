@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Tabel</title>
+    <style>
+        table {
+            width: 550px;
+            border: 1px solid orange;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid orange;
+            vertical-align: top;
+
+            header,
+            nav,
+            section,
+            aside,
+            footer {
+                display: block;
+                padding: 20px;
+            }
+        }
+
+        header,
+        nav,
+        section,
+        aside,
+        footer {
+            display: block;
+            padding: 20px;
+        }
+
+        header,
+        footer {
+            background-color: #fbe4c8;
+            text-align: center;
+            
+            font-family: Calibri, sans-serif;
+        }
+
+        nav {
+            background-color: #dce6f7;
+            text-align: center;
+            
+            font-family: Calibri, sans-serif;
+        }
+
+        section {
+            background-color: #f8d7da;
+            height: 200px;
+            width: 400px;
+            padding: 10px;
+            padding-right: 0;
+            font-family: Calibri, sans-serif;
+        }
+
+        aside {
+            background-color: #d7ead7;
+            width: 100px;
+            height: 200px;
+            padding: 20px;
+            padding-left: 0;
+            font-family: Calibri, sans-serif;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table cellspacing="0" cellpadding="0">
+        <!-- Header -->
+        <tr>
+            <td colspan="2">
+                <header>HEADER</header>
+            </td>
+        </tr>
+
+        <!-- Navigasi -->
+        <tr>
+            <td colspan="2">
+                <nav>NAVIGASI</nav>
+            </td>
+        </tr>
+
+        <!-- Konten dan Sidebar -->
+        <tr>
+            <td>
+                <section>
+                    <h1>Heading 1</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </section>
+            </td>
+            <td>
+                <aside>
+                    <b>Menu:</b>
+                    <ul>
+                        <li>Home</li>
+                        <li>Berita</li>
+                        <li>Layanan</li>
+                        <li>Kontak</li>
+                    </ul>
+                </aside>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="2">
+                <footer>FOOTER</footer>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
